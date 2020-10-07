@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC61E36E252E4EBB00701C98 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61E36D252E4EBB00701C98 /* CacheManager.swift */; };
+		CC61E371252E576500701C98 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC61E370252E576400701C98 /* DetailViewController.swift */; };
 		CCA9C7EF252E48360026221B /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9C7EE252E48360026221B /* VideoTableViewCell.swift */; };
 		CCC980E2252BE77C00ED4AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC980E1252BE77C00ED4AB9 /* AppDelegate.swift */; };
 		CCC980E4252BE77C00ED4AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC980E3252BE77C00ED4AB9 /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		CC61E36D252E4EBB00701C98 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		CC61E370252E576400701C98 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CCA9C7EE252E48360026221B /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		CCC980DE252BE77C00ED4AB9 /* youtube-onedaybuild-matt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild-matt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC980E1252BE77C00ED4AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				CCC980E5252BE77C00ED4AB9 /* ViewController.swift */,
+				CC61E370252E576400701C98 /* DetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC61E371252E576500701C98 /* DetailViewController.swift in Sources */,
 				CCC98103252C116600ED4AB9 /* Response.swift in Sources */,
 				CCC98100252BF6A400ED4AB9 /* ConstantsTemplate.swift in Sources */,
 				CCC980E6252BE77C00ED4AB9 /* ViewController.swift in Sources */,
